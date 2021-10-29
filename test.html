@@ -1,0 +1,21 @@
+<html>
+  <head></head>
+  <body>
+    <select id="select">
+      <option value="1" id="option-1">One</option>
+      <option value="2" id="option-2">Two</option>
+    </select>
+
+    <div id="output">
+    </div>
+
+    <script>
+      document.getElementById('select').addEventListener('input', (e) => {
+        document.getElementById('output').append('input triggered', document.createElement("br"));
+      });
+      document.getElementById('select').addEventListener('change', (e) => {
+        document.getElementById('output').append('change triggered', document.createElement("br"));
+      });
+    </script>
+  </body>
+</html>
