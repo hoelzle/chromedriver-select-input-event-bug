@@ -11,3 +11,5 @@ $ ruby -run -e httpd . -p5000
 # run the test
 $ ruby test.rb
 ```
+
+👉 Bug reported https://bugs.chromium.org/p/chromedriver/issues/detail?id=3940
